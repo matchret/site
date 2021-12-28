@@ -6,18 +6,16 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #e5e5e5;
-  }
 
 li {
     float: left;
+    border-right: 1px solid #bbb;
 }
 
 li a {
@@ -26,15 +24,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
 }
 
-  /* Change the link color to #111 (black) on hover */
+/* Change the link color to #111 (black) on hover */
 li a:hover:not(.active) {
     background-color: #111;
-}
-
-li {
-  border-right: 1px solid #bbb;
 }
 
 li:last-child {
